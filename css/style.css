@@ -1,0 +1,198 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.hero {
+  color:#506FA3;
+}
+ 
+.swal2-confirm.waves-effect.waves-light.btn.swal2-styled {
+    padding-top: 0px;
+}
+
+#email::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ffffff;
+}
+#email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffffff;
+}
+#email::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ffffff;
+}
+#email:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ffffff;
+}
+
+.preloader-wrapper{
+
+display: none;
+margin: 0 50%;
+}
+
+.swal2-checkbox input, .swal2-checkbox span, .swal2-radio input, .swal2-radio span {
+
+    margin-right: 20px;
+}
+
+input {
+    text-align: center;
+}
+
+
+
+img.logo {
+/*  width:60%;*/
+  margin-bottom: 5rem;
+}
+
+#index-banner {
+    min-height: 425px;
+}
+
+#filledIn{
+
+  text-align: center;
+}
+
+.makeitBlk {
+
+background-color: #AFBED8;
+}
+
+strong.faq{ 
+
+  color: #506FA3;
+}
+
+.page-footer {
+    padding-top: 10px;
+    background-color: #506FA3;
+}
+
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+
+.input-field label {
+    color: #506FA3;
+}
+
+ .buttonBlkShadow:hover {
+    box-shadow: 0 2px 2px 0 rgba(242, 238, 238, 0.78), 0 1px 5px 0 rgba(219, 233, 221, 0.23), 0 3px 1px -2px rgba(203, 189, 189, 0.67);
+}
+
+ .buttonBlkShadow{
+    box-shadow: 0 2px 2px 0 rgba(242, 238, 238, 0.14), 0 1px 5px 0 rgba(219, 233, 221, 0.12), 0 3px 1px -2px rgba(203, 189, 189, 0.20);
+}
+
+
+.headingImg {
+
+  height: 100%;
+}
+
+
+/* STOCK FEATURES */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+/*  line-height: 0;*/
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+.terms {
+
+  margin-left: 30px;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px){
+
+.bottomHClass{
+
+position: relative;
+bottom:90px;
+  
+}
+
+}
+
+
+.minIcon{
+  position:relative;
+  bottom:60px;
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 860px){
+
+
+.minIcon{
+  position:relative;
+  bottom:70px;
+
+}
+
+
+.bottomHClass{
+
+position: relative;
+bottom:90px;
+  
+}
+
+}
+
